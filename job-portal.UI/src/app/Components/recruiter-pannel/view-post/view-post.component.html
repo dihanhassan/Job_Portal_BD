@@ -1,0 +1,29 @@
+
+<section class="todoContainer">
+    <div class="container">
+    
+      <!-- <div class="headerContent" >
+       
+       
+     </div> -->
+     <table id="customers">
+        <tr>
+          <th>POST ID</th>
+          <th>Created Time</th>
+          <th>Dead Line</th>
+          <th>Title</th>
+          <th>Field</th>
+        
+        </tr>
+        <tr *ngFor="let post of posts">
+          <td>{{post.jobPostID }}  </td>
+          <td>{{post.created | date: "MMM d, y"}}</td>
+          <td>{{post.deadLine | date: "MMM d, y"}}</td>
+          <td>{{post.title}}</td>
+          <td>{{post.field}}</td>
+          <td><button mat-raised-button color="primary" (click)="viewPost(post)">View</button></td>
+      </table>
+  </div>
+  </section>
+  
+  <!-- (click)="editTodo(todo)" -->

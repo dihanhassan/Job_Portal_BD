@@ -1,0 +1,17 @@
+.spacer{
+    flex: 1 1 auto;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.nav-bar{
+    position: fixed;
+  top: 0;
+  width: 100%;
+   /* Set your desired background color or make it transparent */
+  z-index: 1000; 
+}
+.tool-bar{
+    background-color: #453F78;
+    color: white;
+}

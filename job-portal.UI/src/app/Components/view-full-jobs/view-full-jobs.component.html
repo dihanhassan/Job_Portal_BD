@@ -1,0 +1,110 @@
+<section class="HomeContainer">
+    <div class="header">
+        
+      <div class="job-headline">
+        <h1 class="bg-fnt">{{post.title}}</h1>
+        <h3 class="sm-fnt">{{post.organization}}</h3>
+      </div>
+      <p class="md-fnt">
+        Experience: {{post.experience}}
+      </p>
+      
+    
+      
+
+      <p class="md-fnt">
+        Location: {{post.location}}
+      </p>
+      <p class="md-fnt">
+       <strong> Deadline : {{ post.deadLine| date: "MMM d, y"}} </strong> 
+      </p>
+
+      <hr class="newline">
+
+      <div class="post-info">
+        <div class="post-time">
+          <p class="sm-fnt">Posted on: {{ post.created | date: "MMM d, y"}}   </p>
+         
+          <p class="sm-fnt">||  Applicants : 20</p>
+        </div>
+
+     
+           
+
+     
+        <div class="example-button-row">
+
+            
+
+
+            <button mat-fab extended color="primary" class="button">
+              Apply
+            </button>
+        </div>
+      </div>
+
+
+    </div>
+     <div class="job-content">
+            <div class="job-description">
+                <p class="title"> <strong>JOB DESCRIPTION:</strong>  </p>
+                <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illo possimus itaque nulla laudantium sint esse natus quaerat exercitationem soluta, aspernatur delectus incidunt quasi deleniti facere hic doloribus minus? Sapiente quod adipisci obcaecati aspernatur eveniet impedit inventore ipsum quas, cumque, suscipit eligendi culpa repudiandae. Asperiores dignissimos repellat perferendis numquam vel!</p>
+
+                <p class="title" style="margin-top: 50px;"> <strong>REQUIREMENTS:</strong>  </p>
+
+                <p class="title-2" style="margin-top: 10px;"> <strong>Education</strong>  </p>
+                
+                <ul style="margin-left: 30px;">
+                    <li>
+                        <p class="text-description" >
+                            {{post.education}}
+                        </p>
+                       
+                    </li>
+                </ul> 
+
+                <p class="title-2" style="margin-top: 10px;"> <strong>Experience</strong>  </p>
+                
+                <ul style="margin-left: 30px;">
+                    <li>
+                        <p class="text-description" >
+                            {{post.experience}}
+                        </p>
+                       
+                    </li>
+                </ul> 
+                <p class="title-2" style="margin-top: 10px;"> <strong>Additional Requirements</strong>  </p>
+                
+                <ul style="margin-left: 30px;">
+                    <li *ngFor="let require of post.requirements">
+                        <p class="text-description" >
+                            {{require}}
+                        </p>
+                       
+                    </li>
+                </ul> 
+
+
+                <p class="title" style="margin-top: 50px;"> <strong>RESPONSIBILITIES:</strong>  </p>
+                <ul style="margin-left: 30px;">
+                    <li *ngFor="let responsibility of post.responsibilities">
+                        <p class="text-description" >
+                            {{responsibility}}
+                        </p>
+                       
+                    </li>
+                </ul> 
+                <p class="title" style="margin-top: 50px;"> <strong> COMPENSATION: </strong>  </p>
+                <p class="text-description" >
+                    {{ post.compensation}}
+                </p>
+                <p class="title" style="margin-top: 50px;"> <strong> EMOLOYEE TYPE: </strong>  </p>
+                <p class="text-description" >
+                    {{ post.employeeStatus}}
+                </p>
+                
+            </div>
+          
+
+     </div>
+</section>

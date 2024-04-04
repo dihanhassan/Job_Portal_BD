@@ -1,0 +1,93 @@
+<section class="add-post-container">
+    <div class="Title">
+        <p class="text"><strong>CREATE NEW POST</strong> </p>
+    </div>
+
+    <div class="add-post-form">
+        
+      <form  class="form-field">
+        
+       <div class="all-field">
+        <div class="part">
+            <mat-form-field>
+                <mat-label>Title</mat-label>
+                <input matInput [(ngModel)]="newPost.title" name="title" required>
+              </mat-form-field>
+        
+              <mat-form-field>
+                <mat-label>Description</mat-label>
+                <textarea matInput [(ngModel)]="newPost.description" name="description" required></textarea>
+              </mat-form-field>
+        
+              <mat-form-field>
+                <mat-label>Vacancy</mat-label>
+                <input matInput type="number" [(ngModel)]="newPost.vacancy" name="vacancy" required>
+              </mat-form-field>
+        
+              <mat-form-field>
+                <mat-label>Education</mat-label>
+                <input matInput [(ngModel)]="newPost.education" name="education" required>
+              </mat-form-field>
+        
+              <mat-form-field>
+                <mat-label>Organization</mat-label>
+                <input matInput [(ngModel)]="newPost.organization" name="organization" required>
+              </mat-form-field>
+        
+              <mat-form-field>
+                <mat-label>Location</mat-label>
+                <input matInput [(ngModel)]="newPost.location" name="location" required>
+              </mat-form-field>
+        </div>
+  
+        <div class="part">
+            <mat-form-field>
+                <mat-label>Requirements</mat-label>
+                <textarea matInput [(ngModel)]="requirement" name="requirements" required></textarea>
+              </mat-form-field>
+        
+              <mat-form-field>
+                <mat-label>Responsibilities</mat-label>
+                <textarea matInput [(ngModel)]="responsibility" name="responsibilities" required></textarea>
+              </mat-form-field>
+        
+              <mat-form-field>
+                <mat-label>Compensation</mat-label>
+                <input matInput [(ngModel)]="newPost.compensation" name="compensation" required>
+              </mat-form-field>
+        
+              <mat-form-field>
+                <mat-label>Employee Status</mat-label>
+                <input matInput [(ngModel)]="newPost.employeeStatus" name="employeeStatus" required>
+              </mat-form-field>
+        
+              <mat-form-field>
+                <mat-label>Experience</mat-label>
+                <input matInput [(ngModel)]="newPost.experience" name="experience" required>
+              </mat-form-field>
+        
+              <mat-form-field>
+                <mat-label>Deadline</mat-label>
+                <input matInput [matDatepicker]="picker" [(ngModel)]="newPost.deadLine" name="deadLine" required>
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+              <mat-form-field>
+                <mat-label>Field</mat-label>
+                <input matInput [(ngModel)]="newPost.field" name="field" required>
+              </mat-form-field>
+        
+             
+        </div>
+       </div>
+
+        <!-- Add more form fields as needed -->
+  
+      <div class="button">
+        <button mat-raised-button color="primary"  (click)="addPost()" >Add Post</button>
+        <button mat-raised-button color="primary"  (click)="clearPost()">Clear</button>
+     </div>
+      </form>
+    </div>
+  </section>
+  

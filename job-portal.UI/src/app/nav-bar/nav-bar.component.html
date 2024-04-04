@@ -1,0 +1,13 @@
+<mat-toolbar class="tool-bar">
+    <mat-toolbar-row>
+      <span>Job Portal Bd</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" [matMenuTriggerFor]="menu">
+        <mat-icon>account_circle</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="goToProfile()">Profile</button>
+        <button mat-menu-item (click)="logout()">Logout</button>
+      </mat-menu>
+    </mat-toolbar-row>
+  </mat-toolbar>

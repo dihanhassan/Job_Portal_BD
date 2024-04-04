@@ -1,0 +1,85 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.details-class{
+    padding-top: 100px;
+}
+
+td{
+    text-align: start;
+}
+.container{
+    margin-top: 50px !important;
+    
+  
+    margin-top: auto;
+    border-radius: 5px;
+   
+}
+.Home-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(180deg,#e7e7f1 .62%,rgba(231,231,241,0) 95.76%);
+    
+
+}
+.filter-options{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    padding: 30px;
+    background: #a7aaaa;
+    display: flex;
+    flex-direction: column;
+   
+    // margin-right: 50px;
+  
+    max-width: 300px;
+    width: 80%;
+    
+    
+  
+    height: 1000px;
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    top: 150px;
+}
+
+
+.container{
+    max-width: 1920px !important;
+    width: 100% !important;
+}
+.table-section{
+    
+    max-width: 1900px !important;
+    width: 100% !important;
+}
+
+.action-button{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+   
+}
+
+.post-view{
+    margin-bottom: 50px;
+}
+
+.card-hover:hover {
+    background-color: #e0e0e0; /* Change to the desired hover color */
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+    cursor: pointer; /* Change the mouse pointer to pointer */
+}
+
+.title-logo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

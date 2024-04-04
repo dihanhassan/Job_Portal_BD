@@ -1,0 +1,46 @@
+
+<section class="todoContainer">
+    <div class="container">
+    
+      <!-- <div class="headerContent" >
+       
+       
+     </div> -->
+     <table id="customers">
+        <tr>
+          <th>SI</th>
+          <th>Applied Date</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Mobile</th>
+          <th>Gender</th>
+          <th>Institute</th>
+          <th>Skill</th>
+          <th>Experience</th>
+          <th>Resume</th>
+        
+        </tr>
+        <tr *ngFor="let applicant of applicants; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ applicant.appliedDate | date: "MMM d, y" }}</td>
+            <td>{{ applicant.lastName }}</td>
+            <td>{{ applicant.email }}</td>
+            <td>{{ applicant.mobileNumber }}</td>
+            <td>{{ applicant.gender }}</td>
+            <td>{{ applicant.institution }}</td>
+            <td>{{ applicant.skill }}</td>
+            <td>{{ applicant.experience }}</td>
+            <td>
+                <div class="example-button-row">
+                    <a mat-raised-button [href]="'https://localhost:7086/' + applicant.resumeUrl" target="_blank">View</a>
+                </div>
+  
+            </td>
+          </tr>
+          
+          
+      </table>
+  </div>
+  </section>
+  
+  <!-- (click)="editTodo(todo)" -->

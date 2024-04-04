@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items in the cross axis (center vertically) */
+}
+
+.add-post-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content along the main axis (vertically) */
+    align-items: center; /* Center content along the cross axis (horizontally) */
+    max-width: 2920px;
+    width: 100%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.add-post-form {
+    max-width:1920px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(216, 216, 216);
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 30px;
+
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1920px;
+    width: 100%;
+    
+    
+}
+
+mat-form-field {
+    max-width:900px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.all-field {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Center content along the main axis (horizontally) */
+    gap : 150px;
+}
+
+button {
+    width: 250px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.Title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.text{
+    color:#3c1fa5;
+}

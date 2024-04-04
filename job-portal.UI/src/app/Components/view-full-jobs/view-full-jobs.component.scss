@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif !important; 
+    box-sizing: border-box !important;
+}
+
+.HomeContainer {
+    width: 100%;
+    max-width: 2920px;
+    
+    margin: 0 auto;
+    background: efeff6;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(180deg,#e7e7f1 .62%,rgba(231,231,241,0) 95.76%);
+    
+}
+
+.box-color{
+    background-color: var(--N100);
+   box-shadow:  0 6px 12px rgba(30,10,58,.04)
+}
+
+.header{
+    max-width: 1900px;
+    width: 60%;
+    
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+ 
+  //  height: 150px;
+    background-color: #ffffff;
+    
+    box-shadow:  0 6px 12px rgba(30,10,58,.04);
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.newline{
+    border-left: 1px solid black;
+    height: 80%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.post-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.post-time{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   
+}
+.sm-fnt{
+    font-family: "Lato", sans-serif;
+    font-size: 20PX;
+    font-weight: 400px;
+}
+.md-fnt{
+    font-family: "Lato", sans-serif;
+    font-size: 20PX;
+    font-weight: 700px;
+
+}
+.bg-fnt{
+    font-family: "Lato", sans-serif;
+    font-size: 30PX;
+    font-weight: 700px;
+}
+.button{
+    width: 150px;
+    font-family: "Lato", sans-serif;
+    font-size: 20PX;
+    font-weight: 400px;
+}
+
+.job-content{
+    max-width: 1900px;
+    width: 60%;
+    
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+ 
+    padding-bottom: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow:  0 6px 12px rgba(30,10,58,.04);
+    padding: 30px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+  
+    font-family: "Lato", sans-serif;
+}
+
+.job-description{
+    font-family: "Lato", sans-serif;
+  
+    // max-width: 1200px;
+    width: 100%;
+}
+.text-description{
+    font-family:  sans-serif !important;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    color: rgb(114, 111, 111);
+
+}
+.title{
+    font-family: "Lato", sans-serif;
+    font-size: 26px;
+    font-weight: 700px;
+    line-height: 30px;
+    
+   color: #ca088a;
+    
+}
+.title-2{
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 30px;
+}

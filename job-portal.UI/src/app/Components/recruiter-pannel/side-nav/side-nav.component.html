@@ -1,0 +1,49 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <button mat-button (click)="sideBarOpen = !sideBarOpen">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Recruiter Panel</span>
+      <span class="spacer"></span>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <mat-drawer-container class="container">
+    <mat-drawer mode="side" [opened]="sideBarOpen" mode="push">
+      <mat-nav-list class="list-container" >
+        <!-- <div class="logo py-4">
+        
+        </div> -->
+        <!-- <mat-divider></mat-divider> -->
+        <!-- <h2 matSubheader class="mt-2">APPLICATIONS</h2> -->
+  
+       <div class="option">
+        <a mat-list-item routerLinkActive="list-item-active" routerLink="dashboard">
+            <span class="icon-text"><mat-icon>dashboard</mat-icon> <strong>Dashboard</strong></span>
+          </a>
+          <mat-divider></mat-divider>
+          <a mat-list-item routerLinkActive="list-item-active" routerLink="add-post">
+           
+            <span class="icon-text"> <mat-icon>add</mat-icon> <strong>Add Post</strong></span>
+          </a>
+          <mat-divider></mat-divider>
+          <a mat-list-item routerLinkActive="list-item-active" routerLink="view-post">
+           
+            <span class="icon-text">  <mat-icon>view_module</mat-icon> <strong>View Post</strong></span>
+          </a>
+       </div>
+       <div class="logout">
+        <mat-divider></mat-divider>
+        <a mat-list-item (click)="logout()">
+            
+            <span class="icon-text"> <mat-icon>logout</mat-icon> <strong style="font-size: 20px;">Logout</strong></span>
+          </a>
+          <mat-divider></mat-divider>
+       </div>
+  
+      </mat-nav-list>
+    </mat-drawer>
+    <mat-drawer-content class="other-content">
+      <router-outlet></router-outlet>
+    </mat-drawer-content>
+  </mat-drawer-container>
+  
