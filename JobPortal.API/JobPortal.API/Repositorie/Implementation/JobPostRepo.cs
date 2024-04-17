@@ -124,6 +124,10 @@ namespace JobPortal.API.Repositorie.Implementation
                                             FROM JOB_POSTS_RESPONSIBILITY
                                             WHERE  JobPostID = @JobPostID
                                             AND IsDeleted=@IsDeleted";
+                       /* string queryRes = @"SELECT Responsibilitiesaaaaa 
+                                            FROM JOB_POSTS_RESPONSIBILITY
+                                            WHERE  JobPostID = @JobPostID
+                                            AND IsDeleted=@IsDeleted";*/
                         using (var readr = await connection.ExecuteReaderAsync(queryRes, new { JobPostID = jobPost.JobPostID, IsDeleted=0 }))
                         {
                             List<string> responsibilities = new List<string>();

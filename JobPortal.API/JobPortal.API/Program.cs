@@ -1,6 +1,7 @@
 // jwt token namspace 
 
 using JobPortal.API;
+using JobPortal.API.Middleware;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -48,8 +49,11 @@ if (app.Environment.IsDevelopment())
     app.UseStaticFiles();
 
     app.UseRouting();
+
+
 }
 
+app.UseMiddleware<ExceptionHandle>();
 
 
 

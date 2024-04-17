@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ISp2KgH6tSxGlT3RJwk2ufnl9Evs+XCjXnLfG7+JDHI=",
+  "Hash": "dT4XXh/w+NtTAALYlpmtx5NKNlNdaaLs9J8TCp1OhSc=",
   "Source": "JobPortal.API",
   "BasePath": "_content/JobPortal.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "JobPortal.API\\wwwroot",
       "Source": "JobPortal.API",
-      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
       "BasePath": "_content/JobPortal.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\1b2e3e92-a096-4250-966a-b2e8755e2d06-Dihan_RESUME.pdf",
+      "Identity": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\1b2e3e92-a096-4250-966a-b2e8755e2d06-Dihan_RESUME.pdf",
       "SourceId": "JobPortal.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
       "BasePath": "_content/JobPortal.API",
       "RelativePath": "Resume/1b2e3e92-a096-4250-966a-b2e8755e2d06-Dihan_RESUME.pdf",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\Resume\\1b2e3e92-a096-4250-966a-b2e8755e2d06-Dihan_RESUME.pdf"
     },
     {
-      "Identity": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\2567dbd0-fbc2-445a-a562-a91e3b4a3460-Resume_of_Atahar_Islam_Shihab.pdf",
+      "Identity": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\2567dbd0-fbc2-445a-a562-a91e3b4a3460-Resume_of_Atahar_Islam_Shihab.pdf",
       "SourceId": "JobPortal.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
       "BasePath": "_content/JobPortal.API",
       "RelativePath": "Resume/2567dbd0-fbc2-445a-a562-a91e3b4a3460-Resume_of_Atahar_Islam_Shihab.pdf",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\Resume\\2567dbd0-fbc2-445a-a562-a91e3b4a3460-Resume_of_Atahar_Islam_Shihab.pdf"
     },
     {
-      "Identity": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\84e0994b-6a0b-476d-bd37-319405fd6453-Resume_of_Atahar_Islam_Shihab.pdf",
+      "Identity": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\84e0994b-6a0b-476d-bd37-319405fd6453-Resume_of_Atahar_Islam_Shihab.pdf",
       "SourceId": "JobPortal.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
       "BasePath": "_content/JobPortal.API",
       "RelativePath": "Resume/84e0994b-6a0b-476d-bd37-319405fd6453-Resume_of_Atahar_Islam_Shihab.pdf",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Resume\\84e0994b-6a0b-476d-bd37-319405fd6453-Resume_of_Atahar_Islam_Shihab.pdf"
     },
     {
-      "Identity": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\a593ea59-894a-46c3-aa4e-8d63e8161236-Dihan_RESUME.pdf",
+      "Identity": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\a593ea59-894a-46c3-aa4e-8d63e8161236-Dihan_RESUME.pdf",
       "SourceId": "JobPortal.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
       "BasePath": "_content/JobPortal.API",
       "RelativePath": "Resume/a593ea59-894a-46c3-aa4e-8d63e8161236-Dihan_RESUME.pdf",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Resume\\a593ea59-894a-46c3-aa4e-8d63e8161236-Dihan_RESUME.pdf"
     },
     {
-      "Identity": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\bf4a9a3e-7728-451b-b8d6-843a81197065-Resume_of_Atahar_Islam_Shihab.pdf",
+      "Identity": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\bf4a9a3e-7728-451b-b8d6-843a81197065-Resume_of_Atahar_Islam_Shihab.pdf",
       "SourceId": "JobPortal.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
       "BasePath": "_content/JobPortal.API",
       "RelativePath": "Resume/bf4a9a3e-7728-451b-b8d6-843a81197065-Resume_of_Atahar_Islam_Shihab.pdf",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Resume\\bf4a9a3e-7728-451b-b8d6-843a81197065-Resume_of_Atahar_Islam_Shihab.pdf"
     },
     {
-      "Identity": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\e6776330-2610-4c10-8146-c0640fbc1a10-Resume_of_Atahar_Islam_Shihab.pdf",
+      "Identity": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Resume\\e6776330-2610-4c10-8146-c0640fbc1a10-Resume_of_Atahar_Islam_Shihab.pdf",
       "SourceId": "JobPortal.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
       "BasePath": "_content/JobPortal.API",
       "RelativePath": "Resume/e6776330-2610-4c10-8146-c0640fbc1a10-Resume_of_Atahar_Islam_Shihab.pdf",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Resume\\e6776330-2610-4c10-8146-c0640fbc1a10-Resume_of_Atahar_Islam_Shihab.pdf"
     },
     {
-      "Identity": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Upload\\Resume\\1011ac8b-25b5-4234-bde4-982a41fb6627\\1011ac8b-25b5-4234-bde4-982a41fb6627.pdf",
+      "Identity": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Upload\\Resume\\1011ac8b-25b5-4234-bde4-982a41fb6627\\1011ac8b-25b5-4234-bde4-982a41fb6627.pdf",
       "SourceId": "JobPortal.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
       "BasePath": "_content/JobPortal.API",
       "RelativePath": "Upload/Resume/1011ac8b-25b5-4234-bde4-982a41fb6627/1011ac8b-25b5-4234-bde4-982a41fb6627.pdf",
       "AssetKind": "All",
@@ -150,10 +150,29 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Resume\\1011ac8b-25b5-4234-bde4-982a41fb6627\\1011ac8b-25b5-4234-bde4-982a41fb6627.pdf"
     },
     {
-      "Identity": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Upload\\Resume\\123\\123.pdf",
+      "Identity": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Upload\\Resume\\11\\11.pdf",
       "SourceId": "JobPortal.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
+      "BasePath": "_content/JobPortal.API",
+      "RelativePath": "Upload/Resume/11/11.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Resume\\11\\11.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Upload\\Resume\\123\\123.pdf",
+      "SourceId": "JobPortal.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
       "BasePath": "_content/JobPortal.API",
       "RelativePath": "Upload/Resume/123/123.pdf",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Resume\\123\\123.pdf"
     },
     {
-      "Identity": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Upload\\Resume\\321\\321.pdf",
+      "Identity": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\Upload\\Resume\\321\\321.pdf",
       "SourceId": "JobPortal.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\Final\\Job-Portal-BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TN-99347\\Desktop\\JOB PORTAL BD\\Job-Portal-BD\\JobPortal.API\\JobPortal.API\\wwwroot\\",
       "BasePath": "_content/JobPortal.API",
       "RelativePath": "Upload/Resume/321/321.pdf",
       "AssetKind": "All",
